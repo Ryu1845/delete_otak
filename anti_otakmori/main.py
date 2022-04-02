@@ -24,8 +24,7 @@ async def on_message(message: discord.Message):
     if message.author == client.user:
         return
 
-    print(message.content)
-    asyncio.sleep(200)
+    await asyncio.sleep(200)
     embed: discord.Embed
     for embed in message.embeds:
         if any(
