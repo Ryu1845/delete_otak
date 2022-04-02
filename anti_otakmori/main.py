@@ -25,9 +25,9 @@ async def on_message(message: discord.Message):
         return
 
     await asyncio.sleep(0.2)
-    print("test")
     embed: discord.Embed
     for embed in message.embeds:
+        print("test")
         if any(
             channel_id in embed.author.url for channel_id in BANNED_CLIPPERS.values()
         ):
