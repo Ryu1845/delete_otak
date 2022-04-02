@@ -9,7 +9,7 @@ BANNED_CLIPPERS = {
     "iroha": "UCizN2tVLNcwP67bAHlVRg1Q",
     "fuwamomo": "UCmd-9kqE3VGMYCqiUy7QnWw",
     "yaku": "UCegRyiPSOfnUiCQ3lTLhsYQ",
-    "kami": "KamiClips",
+    "kami": "UCHViryX3EF0hQ_LIRa0rtyw",
 }
 
 
