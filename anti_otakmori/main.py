@@ -1,6 +1,7 @@
 from os import getenv
 
 import discord
+import asyncio
 
 client = discord.Client()
 BANNED_CLIPPERS = {
@@ -23,6 +24,7 @@ async def on_message(message: discord.Message):
     if message.author == client.user:
         return
 
+    asyncio.sleep(200)
     embed: discord.Embed
     for embed in message.embeds:
         if any(
